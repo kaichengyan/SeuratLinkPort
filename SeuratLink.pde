@@ -11,7 +11,7 @@ void draw(){
     color c = img.get(x,y);
     fill(c);
     noStroke();
-    ellipse(x,y,15,15);
+    ellipse(x,y,mouseX/15+5,mouseX/15+5);
   }
 }
 
